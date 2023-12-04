@@ -50,6 +50,18 @@ h3{
 }
 
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+.foto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 @media all and (min-width:320px) and (max-width: 480px){
