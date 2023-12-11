@@ -61,6 +61,8 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -70,6 +72,31 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+
+.primerafila{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepad{
+
+    
+}
+
+.segundafila{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
