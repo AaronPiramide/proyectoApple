@@ -6,8 +6,12 @@ header{
 
     display: flex;
     background-color: #F5F5F7;
-    justify-content: space-between;
+    justify-content: center;
+}
 
+.imagen{
+
+    height: 50px;
 }
 
 nav{
@@ -21,10 +25,6 @@ a{
     text-decoration: none;
 }
 
-img{
-height: 20px;
-
-}
 
 .container{
 
@@ -60,6 +60,16 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 55px;
+}
+
+
+.texto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
