@@ -86,9 +86,11 @@ img {
     align-items: center;
 }
 
-.homepad{
-
-    
+.imagenIzquierda{
+display: flex;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .segundafila{
