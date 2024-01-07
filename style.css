@@ -89,10 +89,10 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #CBCBCB;
-    
+
 }
 
-.homepad{
+.homepad {
 
     display: flex;
     justify-content: center;
@@ -102,18 +102,18 @@ img {
     background-color: black;
     color: #F5F5F7;
     margin-top: 15px;
-    
+
 }
 
 
-.boton{
+.boton {
 
     display: flex;
     gap: 15px;
     color: blue;
 }
 
-.boton1{
+.boton1 {
 
     display: flex;
     padding: 15px;
@@ -123,14 +123,14 @@ img {
     color: #F5F5F7;
 }
 
-.boton2{
+.boton2 {
     display: flex;
     gap: 15px;
     color: blue;
-    
+
 }
 
-.boton2º{
+.boton2º {
 
     display: flex;
     padding: 15px;
@@ -141,7 +141,7 @@ img {
 }
 
 
-.homepadmini{
+.homepadmini {
 
     background-color: white;
     display: flex;
@@ -151,30 +151,30 @@ img {
     border-radius: 20px;
     margin-left: 15px;
     margin-top: 10px;
-    
+
 }
 
-.imagenIzquierda{
+.imagenIzquierda {
 
     border-radius: 20px;
 
 }
 
-.imagenDerecha{
+.imagenDerecha {
     border-radius: 20px;
-  
+
 }
 
-.imagenIzAbajo{
-    border-radius: 20px;
-}
-
-.imagenDrAbajo{
-
+.imagenIzAbajo {
     border-radius: 20px;
 }
 
-.tv4k{
+.imagenDrAbajo {
+
+    border-radius: 20px;
+}
+
+.tv4k {
 
 
     background-color: white;
@@ -187,7 +187,7 @@ img {
     margin-left: 20px;
 }
 
-.boton3{
+.boton3 {
 
     display: flex;
     gap: 15px;
@@ -195,7 +195,7 @@ img {
 
 }
 
-.boton3º{
+.boton3º {
 
     display: flex;
     padding: 15px;
@@ -208,7 +208,7 @@ img {
 }
 
 
-.appcasa{
+.appcasa {
 
     background-color: white;
     display: flex;
@@ -221,7 +221,7 @@ img {
 
 }
 
-.info{
+.info {
 
 
     color: blue;
@@ -239,25 +239,26 @@ img {
 
 
 @media all and (min-width:320px) and (max-width: 480px) {
-    .container h2 {
-        font-size: 50px;
-    }
 
-    .container h3 {
+   
+   .imagenDerecha{
 
-        font-size: 19px;
-    }
+    font-size: 24px;
+    color: red;
+   }
 
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
 
-    .container h2 {
-        font-size: 48px;
+    
+
+
+    @media all and (min-width: 1025px) and (max-width: 1200px) {
+
+       
+
+
+
     }
-
-    .container h3 {
-        font-size: 24px;
-    }
-
 }
